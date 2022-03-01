@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="YoutubeDownloader.exe" version="1.0.0.2" publicKeyToken="613138b890319678" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="YoutubeDownloader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="YoutubeDownloader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="libvideo.dll" size="49664">
+      <assemblyIdentity name="libvideo" version="3.1.9.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EJCY6hnwYjJZDMTEHcv2jgwU5K17Y/jJwooElcEZSAU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MediaToolkit.dll" size="19826688">
+      <assemblyIdentity name="MediaToolkit" version="1.1.0.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uWZN5kx34dKVl4akM03WEeLa1yTbmn0shh9iLzyOkMU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="701992">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tiSUnfiw46YVP9+3MKfG9JkLZZLuDZIuF4hDPSdmEPM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NiL.JS.dll" size="521728">
+      <assemblyIdentity name="NiL.JS" version="2.5.1514.0" publicKeyToken="FA941A7C2A4DE689" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Brc0bvunSFPH3DoZ+PgoQ8XISAhe5evrdmzM902+684=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Diagnostics.DiagnosticSource.dll" size="35760">
+      <assemblyIdentity name="System.Diagnostics.DiagnosticSource" version="4.0.1.0" publicKeyToken="CC7B13FFCD2DDD51" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0iEzgYowMT4L7PAQ14pValazTqNh29M1iMmBdjH+1UA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoutubeDownloader.exe" size="13792">
+      <assemblyIdentity name="YoutubeDownloader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xqneb+5hudIoZCR4mwM/os5jwUx5UOvf0+j+Gn868uk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="YoutubeExtractor.dll" size="32256">
+      <assemblyIdentity name="YoutubeExtractor" version="0.10.11.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q4jyPaxj6M3W13v03n1ctcrFh36sI8dpTLQnPx4I3wU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="YoutubeDownloader.exe.config" size="544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dBuLcGJZURn7vOGj6aC8JWz8FXkDBNEz5xXQkJL4Dio=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DKMI7IT\lucas" issuerKeyHash="e0bc9ecd9320c58a267cc09db23b0a3dd48652cf" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>D8nin1wtKQuA77ykpSnaQZxpHZJmNCu0gm0mn6V17SA=</DigestValue></Reference></SignedInfo><SignatureValue>B1BhMd232Lvwp8LF1Ij73WH8cRh49jnk6b1/h+KiycJ4xXlVeDONcNzTgMN1oa6Ba4reVPRgf+txvPyG/LyyyXNsULAEKBjw+N/r2t9+QIp7orloeVcFu4ieWNHKQwAasdutJoSE/lmVKWCHs//Gbw9zxCZO/7Oxpr6NJzKREW0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6MEP9yzZTwLOcBEStKXTQdq2jCWY0HjHTUxCB1Dxv3HvR4zwjYjxofmh/gTpKdQ577t8hH9H0gEEXllWH6i9onhX+RE+FJWo06bdl424Kf0u1xn11GLjvQYo2WE3Dxe7Rim4KDfXR5Zc7MTLgqdOIseLGAKgLDXXfJgnz6BgCrE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="20ed75a59f266d82b42b3466921d699c41da29a5a4bcef800b292d5c9fe2c90f" Description="" Url=""><as:assemblyIdentity name="YoutubeDownloader.exe" version="1.0.0.2" publicKeyToken="613138b890319678" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DKMI7IT\lucas</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YACGy5GaypIhXJxWv5ywdQZuWKbA+wf6BgGEz6QWmhs=</DigestValue></Reference></SignedInfo><SignatureValue>jCaGEkv8rslTrM2uFc0tTqW8138bogvDyE+1utzCnKUKIgdS24rKl0+oAhvft+sKIdSsEu8I7ysbFxh95w+mPpEZAGp2iyW40yjH0otOKvEspp1JQHcc2Cpebp7FgwvhMHGOOr7nnUWVotyUN+ylNuh3LR2gNbVr/36ov6LeeEw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6MEP9yzZTwLOcBEStKXTQdq2jCWY0HjHTUxCB1Dxv3HvR4zwjYjxofmh/gTpKdQ577t8hH9H0gEEXllWH6i9onhX+RE+FJWo06bdl424Kf0u1xn11GLjvQYo2WE3Dxe7Rim4KDfXR5Zc7MTLgqdOIseLGAKgLDXXfJgnz6BgCrE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQMUyNLDGUaIZGyVb/fxNzvTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQASwBNAEkANwBJAFQAXABsAHUAYwBhAHMwHhcNMjIwMjI4MTQyOTM3WhcNMjMwMjI4MjAyOTM3WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQASwBNAEkANwBJAFQAXABsAHUAYwBhAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOjBD/cs2U8CznARErSl00HatowlmNB4x01MQgdQ8b9x70eM8I2I8aH5of4E6SnUOe+7fIR/R9IBBF5ZVh+ovaJ4V/kRPhSVqNOm3ZeNuCn9LtcZ9dRi470GKNlhNw8Xu0YpuCg310eWXOzEy4KnTiLHixgCoCw113yYJ8+gYAqxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEARfyBVyeBIozIcCh/HK/Niqb1398qy8sgJtVTf+LNrkQahMOlZLeNyl920cHstIUFvxL/+KcmGbDA1RX4HQYZBMLLqGS9Gy+KBExhqOI3pW3CBSt7e5tgZpFGyV8XuiYNm/GbaHA9/Z1VO2v4vk0JBkT9PYKQvY3pMTHYnjhFKgI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
