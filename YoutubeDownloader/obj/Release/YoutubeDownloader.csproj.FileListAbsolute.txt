@@ -1,2 +1,0 @@
-C:\Users\lucas\OneDrive\Documents\GitHub\YoutubeDownloader\YoutubeDownloader\YoutubeDownloader\obj\Release\YoutubeDownloader.csproj.AssemblyReference.cache
-C:\Users\lucas\OneDrive\Documents\GitHub\YoutubeDownloader\YoutubeDownloader\YoutubeDownloader\obj\Release\YoutubeDownloader.csproj.SuggestedBindingRedirects.cache
